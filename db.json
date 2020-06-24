@@ -39,6 +39,16 @@
       "nombre": "Rib eye",
       "precio": 400,
       "id": 8
+    },
+    {
+      "nombre": "Zumo de piña",
+      "precio": 100,
+      "id": 9
+    },
+    {
+      "nombre": "Zumo de piña",
+      "precio": 100,
+      "id": 10
     }
   ]
 }
