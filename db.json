@@ -34,6 +34,11 @@
       "nombre": "Rib eye",
       "precio": 124,
       "id": 7
+    },
+    {
+      "nombre": "Rib eye",
+      "precio": 400,
+      "id": 8
     }
   ]
 }
