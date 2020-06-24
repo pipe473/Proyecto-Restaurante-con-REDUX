@@ -1,5 +1,7 @@
 import React, { useState } from 'react';
+// eslint-disable-next-line
 import { useDispatch, useSelector } from 'react-redux';
+
 
 // Action de REDUX
 import { crearNuevoProductoAction } from '../actions/productoActions';
@@ -32,7 +34,6 @@ const NuevoProducto = () => {
             nombre,
             precio
         });
-
     }
 
     return ( 
