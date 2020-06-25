@@ -1,19 +1,9 @@
 {
   "productos": [
     {
-      "id": 1,
-      "nombre": "Jugo de Zanahoria",
-      "precio": "31111"
-    },
-    {
       "id": 2,
       "nombre": "Jugo de Naranja",
       "precio": "1"
-    },
-    {
-      "nombre": "Jugo de Naranja",
-      "precio": "300",
-      "id": 3
     },
     {
       "nombre": "Rib Eye 800g",
@@ -32,11 +22,6 @@
     },
     {
       "nombre": "Rib eye",
-      "precio": 124,
-      "id": 7
-    },
-    {
-      "nombre": "Rib eye",
       "precio": 400,
       "id": 8
     },
@@ -44,16 +29,6 @@
       "nombre": "Zumo de piña",
       "precio": 100,
       "id": 9
-    },
-    {
-      "nombre": "Zumo de piña",
-      "precio": 100,
-      "id": 10
-    },
-    {
-      "nombre": "Zumo de mang0",
-      "precio": 12,
-      "id": 11
     }
   ]
 }
