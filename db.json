@@ -2,12 +2,12 @@
   "productos": [
     {
       "nombre": "Zumo de piña",
-      "precio": 100,
+      "precio": "14",
       "id": 9
     },
     {
       "nombre": "Zumo de mango",
-      "precio": 120,
+      "precio": "12",
       "id": 10
     }
   ]
