@@ -1,34 +1,14 @@
 {
   "productos": [
     {
-      "id": 2,
-      "nombre": "Jugo de Naranja",
-      "precio": "1"
-    },
-    {
-      "nombre": "Rib Eye 800g",
-      "precio": "200",
-      "id": 4
-    },
-    {
-      "nombre": "Jugo de Fresa",
-      "precio": "200",
-      "id": 5
-    },
-    {
-      "nombre": "Rib eye 1kg",
-      "precio": 800,
-      "id": 6
-    },
-    {
-      "nombre": "Rib eye",
-      "precio": 400,
-      "id": 8
-    },
-    {
       "nombre": "Zumo de piña",
       "precio": 100,
       "id": 9
+    },
+    {
+      "nombre": "Zumo de mango",
+      "precio": 120,
+      "id": 10
     }
   ]
 }
