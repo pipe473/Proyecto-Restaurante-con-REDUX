@@ -13,9 +13,7 @@ const Productos = () => {
 
         // Consultar la API
         const cargarProductos = () => dispatch( obtenerProductosAction() );
-        cargarProductos();
-
-        
+        cargarProductos();        
     // eslint-disable-next-line
     }, []);
 

@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import { editarProductoAction } from '../actions/productoActions';
-import { history, useHistory } from 'react-router-dom';
+import { useHistory } from 'react-router-dom';
 
 const EditarProducto = () => {
 

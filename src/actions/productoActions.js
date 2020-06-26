@@ -15,7 +15,6 @@ import {
 } from "../types";
 import clienteAxios from "../config/axios";
 import Swal from 'sweetalert2';
-import EditarProducto from "../components/EditarProducto";
 
 // Crear nuevos productos
 export function crearNuevoProductoAction(producto) {
@@ -116,7 +115,8 @@ export function borrarProductoAction(id) {
         )
       
     } catch (error) {
-      
+      console.log(error);
+      dispatch( eliminarProductoError() );
     }
     
   }
@@ -129,7 +129,7 @@ const obternerProductoEliminar = id => ({
 const eliminarProductoExito = () => ({
   type: PRODUCTO_ELIMINADO_EXITO
 });
-const eliminarProducto = () => ({
+const eliminarProductoError = () => ({
   type: PRODUCTO_ELIMINADO_ERROR,
   payload: true
 });
@@ -156,7 +156,9 @@ export function editarProductoAction(producto) {
         dispatch( editarProductoExito(producto) )
       
     } catch (error) {
+      console.log(error);
       
+      dispatch( editarProductoError() );
     }
 
   }
@@ -170,4 +172,11 @@ const editarProductoExito = producto => ({
   type: PRODUCTO_EDITADO_EXITO,
   payload: producto
 });
+
+const editarProductoError = () => ({
+  type: PRODUCTO_EDITADO_ERROR,
+  payload: true
+})
+
+
 
